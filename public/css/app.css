@@ -33,6 +33,7 @@ body {
     bottom: 0px;
     padding-top: 20px;
     z-index: -1;
+
 }
 .main-container {
     position: absolute;
@@ -291,5 +292,5 @@ body {
 }
 .morris-circle-container {
     width: auto;
-    height: 220px;
+    height: 180px;
 }

@@ -34,28 +34,28 @@ $(function () {
         element: 'm-chart-circle-2',
         labelColor: "#fff",
         colors: [
-            "#FB8C00",
-            "#7CB342",
-            "#039BE5"
+            "#E53935",
+            "#FFB300",
+            "#43A047"
         ],
         data: [
-            { label: "1", value: 12 },
-            { label: "2", value: 30 },
-            { label: "3", value: 20 }
+            { label: "Failed Calls", value: 12 },
+            { label: "Pending", value: 30 },
+            { label: "Completed", value: 20 }
         ]
     });
     Morris.Donut({
         element: 'm-chart-circle-3',
         labelColor: "#fff",
         colors: [
-            "#5E35B1",
-            "#D81B60",
-            "#1E88E5"
+            "#43A047",
+            "#E53935",
+            "#FFB300"
         ],
         data: [
-            { label: "1", value: 50 },
-            { label: "2", value: 30 },
-            { label: "3", value: 20 }
+            { label: "Completed", value: 40 },
+            { label: "Failed Calls", value: 50 },
+            { label: "Pending", value: 10 }
         ]
     });
 });
