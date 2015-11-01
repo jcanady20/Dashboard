@@ -17,30 +17,23 @@ $(function () {
         labels: ['Series A'],
         resize: true
     });
+    var m_colors = ["#E53935","#FFB300","#43A047"];
     Morris.Donut({
         element: 'm-chart-circle-1',
         labelColor: "#fff",
-        colors: [
-            "#E53935",
-            "#757575",
-            "#546E7A"
-        ],
+        colors: m_colors,
         data: [
-            { label: "1", value: 12 },
-            { label: "2", value: 30 },
-            { label: "3", value: 20 }
+            { label: "Failed", value: 12 },
+            { label: "Pending", value: 30 },
+            { label: "Completed", value: 20 }
         ]
     });
     Morris.Donut({
         element: 'm-chart-circle-2',
         labelColor: "#fff",
-        colors: [
-            "#E53935",
-            "#FFB300",
-            "#43A047"
-        ],
+        colors: m_colors,
         data: [
-            { label: "Failed Calls", value: 12 },
+            { label: "Failed", value: 12 },
             { label: "Pending", value: 30 },
             { label: "Completed", value: 20 }
         ]
@@ -48,14 +41,10 @@ $(function () {
     Morris.Donut({
         element: 'm-chart-circle-3',
         labelColor: "#fff",
-        colors: [
-            "#43A047",
-            "#E53935",
-            "#FFB300"
-        ],
+        colors: m_colors,
         data: [
             { label: "Completed", value: 40 },
-            { label: "Failed Calls", value: 50 },
+            { label: "Failed", value: 50 },
             { label: "Pending", value: 10 }
         ]
     });

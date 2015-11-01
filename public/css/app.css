@@ -33,12 +33,38 @@ body {
     width: 220px;
     bottom: 0px;
     z-index: -1;
-<<<<<<< HEAD
     box-shadow: 3px 0px 4px -1px rgba(0,0,0,0.75);
-=======
-
->>>>>>> 377240b432e3f1a78d822c6ef4356fb6c54090b4
 }
+
+.fly-out {
+    position: absolute;
+    background: #E0E0E0;
+    top: 50px;
+    right: 17px;
+    width: 320px;
+    bottom: 0px;
+    z-index: 9999;
+}
+.fly-out-header {
+    background: #485566 none;
+    height: 100px;
+    margin-top: 0;
+    padding: 8px;
+    box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+}
+.fly-out-footer {
+    position: absolute;
+    background: #485566 none;
+    height: 80px;
+    margin-top: 0;
+    padding-top: 16px;
+    padding-right: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+}
+
 .main-container {
     position: absolute;
     top: 50px;
@@ -298,3 +324,4 @@ body {
     width: auto;
     height: 180px;
 }
+
