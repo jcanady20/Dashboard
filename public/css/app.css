@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif !important;
-    background: #424242;
+    background: #3c3d3d none;
     font-size: 14px;
     color: #BDBDBD;
 }
@@ -18,21 +18,22 @@ body {
     font-weight: 700;
 }
 .navbar-phytel {
-    background: #546E7A;
+    background: #485566;
     margin-bottom: 0px !important;
     border-radius: 0 !important;
     height: 50px;
-    box-shadow: 0px 9px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
 }
 .side-bar {
     position: absolute;
-    background: #37474F;
+    background: #485566;
+    padding-top: 20px;
     top: 50px;
     left: 0px;
     width: 220px;
     bottom: 0px;
-    padding-top: 20px;
     z-index: -1;
+    box-shadow: 3px 0px 4px -1px rgba(0,0,0,0.75);
 }
 .main-container {
     position: absolute;
@@ -243,7 +244,7 @@ body {
 }
 
 .side-bar .list-group-item {
-    background: #37474F;
+    background: #485566;
     font-size: 16px;
     font-weight: 500;
     border: 0px;
