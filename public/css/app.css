@@ -33,7 +33,11 @@ body {
     width: 220px;
     bottom: 0px;
     z-index: -1;
+<<<<<<< HEAD
     box-shadow: 3px 0px 4px -1px rgba(0,0,0,0.75);
+=======
+
+>>>>>>> 377240b432e3f1a78d822c6ef4356fb6c54090b4
 }
 .main-container {
     position: absolute;
@@ -292,5 +296,5 @@ body {
 }
 .morris-circle-container {
     width: auto;
-    height: 220px;
+    height: 180px;
 }
