@@ -43,9 +43,9 @@ $(function () {
         labelColor: "#fff",
         colors: m_colors,
         data: [
-            { label: "Completed", value: 40 },
             { label: "Failed", value: 50 },
-            { label: "Pending", value: 10 }
+            { label: "Pending", value: 10 },
+            { label: "Completed", value: 40 }
         ]
     });
 });
